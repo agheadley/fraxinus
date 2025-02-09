@@ -1,5 +1,10 @@
 <script lang="ts">
 
+let { data } = $props();
+let { supabase, user } = $derived(data);
+
+
+
 </script>
 
 <svelte:head>
@@ -11,6 +16,8 @@
 
 	<p class="notice">Building application data. Please wait ...</p>
 </section>
+
+<p>{user?.email}</p>
 
 <style>
 </style>
