@@ -9,7 +9,7 @@
 
 <section>
 
-	<p>Hello from (protected)</p>
+	<p class="notice">Building application data. Please wait ...</p>
 </section>
 
 <style>
